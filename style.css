@@ -1,0 +1,510 @@
+@import url("fontello/css/fontello.css");
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Thin.eot');
+    src: local('TT Mussels Thin'), local('TTMussels-Thin'), url('font/TTMussels-Thin.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Thin.woff2') format('woff2'), url('font/TTMussels-Thin.woff') format('woff'), url('font/TTMussels-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Regular.eot');
+    src: local('TT Mussels Regular'), local('TTMussels-Regular'), url('font/TTMussels-Regular.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Regular.woff2') format('woff2'), url('font/TTMussels-Regular.woff') format('woff'), url('font/TTMussels-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-LightItalic.eot');
+    src: local('TT Mussels Light Italic'), local('TTMussels-LightItalic'), url('font/TTMussels-LightItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-LightItalic.woff2') format('woff2'), url('font/TTMussels-LightItalic.woff') format('woff'), url('font/TTMussels-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Bold.eot');
+    src: local('TT Mussels Bold'), local('TTMussels-Bold'), url('font/TTMussels-Bold.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Bold.woff2') format('woff2'), url('font/TTMussels-Bold.woff') format('woff'), url('font/TTMussels-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-ExtraBold.eot');
+    src: local('TT Mussels ExtraBold'), local('TTMussels-ExtraBold'), url('font/TTMussels-ExtraBold.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-ExtraBold.woff2') format('woff2'), url('font/TTMussels-ExtraBold.woff') format('woff'), url('font/TTMussels-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Medium.eot');
+    src: local('TT Mussels Medium'), local('TTMussels-Medium'), url('font/TTMussels-Medium.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Medium.woff2') format('woff2'), url('font/TTMussels-Medium.woff') format('woff'), url('font/TTMussels-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-ThinItalic.eot');
+    src: local('TT Mussels Thin Italic'), local('TTMussels-ThinItalic'), url('font/TTMussels-ThinItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-ThinItalic.woff2') format('woff2'), url('font/TTMussels-ThinItalic.woff') format('woff'), url('font/TTMussels-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-DemiBold.eot');
+    src: local('TT Mussels DemiBold'), local('TTMussels-DemiBold'), url('font/TTMussels-DemiBold.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-DemiBold.woff2') format('woff2'), url('font/TTMussels-DemiBold.woff') format('woff'), url('font/TTMussels-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Black.eot');
+    src: local('TT Mussels Black'), local('TTMussels-Black'), url('font/TTMussels-Black.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Black.woff2') format('woff2'), url('font/TTMussels-Black.woff') format('woff'), url('font/TTMussels-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Italic.eot');
+    src: local('TT Mussels Italic'), local('TTMussels-Italic'), url('font/TTMussels-Italic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Italic.woff2') format('woff2'), url('font/TTMussels-Italic.woff') format('woff'), url('font/TTMussels-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-BoldItalic.eot');
+    src: local('TT Mussels Bold Italic'), local('TTMussels-BoldItalic'), url('font/TTMussels-BoldItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-BoldItalic.woff2') format('woff2'), url('font/TTMussels-BoldItalic.woff') format('woff'), url('font/TTMussels-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-ExtraBoldItalic.eot');
+    src: local('TT Mussels ExtraBold Italic'), local('TTMussels-ExtraBoldItalic'), url('font/TTMussels-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-ExtraBoldItalic.woff2') format('woff2'), url('font/TTMussels-ExtraBoldItalic.woff') format('woff'), url('font/TTMussels-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-MediumItalic.eot');
+    src: local('TT Mussels Medium Italic'), local('TTMussels-MediumItalic'), url('font/TTMussels-MediumItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-MediumItalic.woff2') format('woff2'), url('font/TTMussels-MediumItalic.woff') format('woff'), url('font/TTMussels-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-DemiBoldItalic.eot');
+    src: local('TT Mussels DemiBold Italic'), local('TTMussels-DemiBoldItalic'), url('font/TTMussels-DemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-DemiBoldItalic.woff2') format('woff2'), url('font/TTMussels-DemiBoldItalic.woff') format('woff'), url('font/TTMussels-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-Light.eot');
+    src: local('TT Mussels Light'), local('TTMussels-Light'), url('font/TTMussels-Light.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-Light.woff2') format('woff2'), url('font/TTMussels-Light.woff') format('woff'), url('font/TTMussels-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-BlackItalic.eot');
+    src: local('TT Mussels Black Italic'), local('TTMussels-BlackItalic'), url('font/TTMussels-BlackItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-BlackItalic.woff2') format('woff2'), url('font/TTMussels-BlackItalic.woff') format('woff'), url('font/TTMussels-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-ExtraLightItalic.eot');
+    src: local('TT Mussels ExtraLight Italic'), local('TTMussels-ExtraLightItalic'), url('font/TTMussels-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-ExtraLightItalic.woff2') format('woff2'), url('font/TTMussels-ExtraLightItalic.woff') format('woff'), url('font/TTMussels-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Mussels';
+    src: url('font/TTMussels-ExtraLight.eot');
+    src: local('TT Mussels ExtraLight'), local('TTMussels-ExtraLight'), url('font/TTMussels-ExtraLight.eot?#iefix') format('embedded-opentype'), url('font/TTMussels-ExtraLight.woff2') format('woff2'), url('font/TTMussels-ExtraLight.woff') format('woff'), url('font/TTMussels-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blank River';
+    src: url('font/Blank-River.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --basecolor: #EEB209;
+    --basecolor2: #643477;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat !important;
+    font-size: 1rem;
+    color: #fff;
+}
+
+html {
+    font-size: 21px;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+    min-width: 330px;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Blank River';
+}
+
+:focus {
+    outline: 0 !important;
+}
+
+[class^=wrapper-],
+[class*=" wrapper-"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+[hidden] {
+    display: none;
+}
+
+[type=checkbox],
+[type=radio] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+b {
+    font-size: inherit;
+    color: inherit;
+    font-weight: 600;
+}
+
+strong,
+.bold {
+    font-weight: 600;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+p,
+p * {
+    margin: 16px 0;
+    line-height: 1.1rem;
+    font-family: 'TT Mussels', cursive;
+}
+
+li {
+    line-height: 1.9rem;
+}
+
+span,
+em,
+a,
+i,
+strong,
+b {
+    font-size: inherit;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.content-l {
+    max-width: 1188px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.content-m {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.content-s {
+    max-width: 915px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.cap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #7b7b7b url(img/cap.png) top center;
+    z-index: 99;
+    padding: 25px 0;
+    height: 100px;
+    background-size: cover;
+}
+
+.logo,
+.logo * {
+    font-size: 2.4rem;
+    line-height: 2rem;
+}
+
+.menu * {
+    font-size: 1.33rem;
+}
+
+.menu a:hover {
+    color: var(--basecolor);
+}
+
+.menu ul li:nth-child(1) a {
+    width: 89px;
+    height: 45px;
+}
+
+.menu ul li:nth-child(2) a {
+    width: 109px;
+    height: 49px;
+}
+
+.menu li.active a {
+    color: var(--basecolor);
+}
+
+.menu li:nth-child(1).active a {
+    background: url(img/image-27.png) center;
+}
+
+.menu li:nth-child(2).active a {
+    background: url(img/image-28.png) center;
+}
+
+.menu ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    position: relative;
+}
+
+[class^=btn-] {
+    background: var(--basecolor);
+    border-radius: 18px;
+    padding: 5px 25px;
+    border: none;
+    display: inline-block;
+}
+
+.btn-s {
+    font-size: 1.14rem;
+}
+
+.btn-l {
+    font-size: 2rem;
+    padding: 13px 48px;
+}
+
+.btn-m {
+    font-size: 1.14rem;
+}
+
+[class^=btn-]:hover {
+    background-color: var(--basecolor2);
+}
+
+.net a {
+    margin-left: 24px;
+}
+
+.net {
+    margin-left: 15px;
+}
+
+.net a:hover {
+    color: var(--basecolor2);
+    text-decoration: underline;
+}
+
+.banner {
+    margin-top: 100px;
+    background: url(img/banner-1.png) center;
+    height: 840px;
+    background-size: cover;
+}
+
+.net a {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.net a:after {
+    content: "";
+    width: 29px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: -1px;
+    right: 0px;
+    margin: 0 auto;
+    background: url(img/after-link.png) center;
+    opacity: 0;
+}
+
+.net a:hover:after {
+    opacity: 1;
+}
+
+.title-l {
+    font-family: 'Blank River';
+    font-size: 4.6rem;
+    margin: 30px 0 30px;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.wrapper-wolves-text .text {
+    text-align: center;
+    width: 52%;
+    margin-top: -20px;
+}
+
+.wrapper-wolves-text img {
+    width: 24%;
+}
+
+.wrapper-wolves-text .text p:first-child {
+    margin-top: 0px;
+}
+
+.roadmap-box {
+    height: 839px;
+    background: url(img/banner-3.png) top center;
+    background-size: cover;
+}
+
+.before {
+    position: relative;
+}
+
+.wolves-skaters-section {
+    padding: 1px 0 80px;
+    z-index: 2;
+}
+
+.wolves-skaters-section .title-l {
+    margin-bottom: 0px;
+}
+
+.before:before {
+    content: "";
+    width: 1119px;
+    height: 93px;
+    display: block;
+    position: absolute;
+    top: -92px;
+    left: 0px;
+    background: url(img/before.png);
+    z-index: 1;
+}
+
+.wrapper-imager-down img {
+    width: 15.8%;
+}
+
+.wrapper-imager-down {
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.wrapper-imager-down img {
+    width: 15.8%;
+}
+
+.wrapper-imager-down {
+    align-items: flex-start;
+}
+
+.wrapper-imager-down img:nth-child(2),
+.wrapper-imager-down img:nth-child(5) {
+    margin-top: 47px;
+}
+
+.wrapper-imager-down img:nth-child(3),
+.wrapper-imager-down img:nth-child(4) {
+    margin-top: 94px;
+}
+
+.wrapper-texts {
+    align-items: flex-start;
+}
+
+.wrapper-texts .half {
+    width: 48%;
+}
+
+.lore-section {
+    padding-bottom: 75px;
+}
+
+.lore-section .title-l {
+    margin-bottom: 50px;
+}
+
+.wrapper-box {
+    margin-top: 50px;
+}
+
+.box .btn-l {
+    margin-top: 45px;
+}
